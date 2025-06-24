@@ -4,4 +4,4 @@
 >
 > *Corresponding Author
 
-We propose a comprehensive defense method named T2IShield to detect, localize, and mitigate backdoor attacks on text-to-image diffusion models.
+We propose UNDER, a unified framework for understanding and defending backdoors in CLIP text encoders. UNDER leverages feature assimilation to detect trigger-free backdoors and mitigate their effects without access to poisoned samples.
