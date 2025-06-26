@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-We propose UNDER, a **model-level** backdoor defense framework for understanding and defending backdoors in CLIP text encoders. UNDER leverages feature assimilation to detect whether the model is backdoored or not and mitigate their effects without access to poisoned samples.
+We propose ClipScanner, a **model-level** backdoor defense framework for understanding and defending backdoors in CLIP text encoders. ClipScanner leverages feature assimilation to detect whether the model is backdoored or not and mitigate their effects without access to poisoned samples.
 
 ## 🔥 News
 
