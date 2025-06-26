@@ -1,4 +1,4 @@
-# 🛡️ClipScanner: Understanding and Defending Backdoors in CLIP Text Encoders
+# 🛡️ClipScanner: Understanding and Defending Against Textual Backdoors in CLIP
 
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
