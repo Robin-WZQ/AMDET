@@ -4,7 +4,9 @@
 >
 > *Corresponding Author
 
-We propose ClipScanner, a **model-level** backdoor defense framework for understanding and defending backdoors in CLIP text encoders. ClipScanner leverages feature assimilation to detect whether the model is backdoored or not and mitigate their effects without access to poisoned samples.
+Can we determine whether a CLIP text encoder has been backdoored without the prior knowledge of its downstream tasks, the backdoor trigger, the backdoor target, and the access to the training data? 
+
+This work says **yes**.
 
 ## 🔥 News
 
