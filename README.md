@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-Can we determine whether a CLIP text encoder has been backdoored without the prior knowledge of its downstream tasks, the backdoor trigger, the backdoor target, and the access to the training data? 
+Can we determine whether a CLIP text encoder has been backdoored without any prior knowledge of its downstream tasks, the backdoor trigger, the backdoor target, and the access to the training data? 
 
 This work says **yes**.
 
