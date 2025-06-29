@@ -1,12 +1,8 @@
-# 🛡️ClipScanner: Understanding and Defending Against Textual Backdoors in CLIP
+# 🛡️ Why Assimilation Matters: Rethinking Textual Backdoor Defense in Vision-Language Pretrained Models
 
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
 > *Corresponding Author
-
-Can we determine whether a CLIP text encoder has been backdoored without any prior knowledge of its downstream tasks, the backdoor trigger, the backdoor target, and the access to the training data? 
-
-This work says **yes**.
 
 ## 🔥 News
 
