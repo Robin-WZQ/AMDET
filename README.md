@@ -41,9 +41,9 @@ T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It 
    ```
 
 ## 🏃🏼 Running Scripts
+> AID: Assimilation-Induced Defense
 
 ### Backdoor Detection🔎
-> AID: Assimilation-Induced Detection Method
 
 1. Generate the data:
 
