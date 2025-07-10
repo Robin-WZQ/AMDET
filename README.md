@@ -115,14 +115,11 @@ python generate_image_erase.py
 
 > We also provide the visualization script for reproducing the images in our paper. 
 
-- Please follow the specific instruction in each file.
+- Please refer to ```./Analysis``` and follow the specific instruction in each file.
+  - coverage.ipynb
+  - assimilation.ipynb
+  - assimilation_each_layer.ipynb
 
-```
-cd ./Analysis
-run coverage.ipynb
-run assimilation.ipynb
-run assimilation_each_layer.ipynb
-```
 
 ------
 
@@ -138,9 +135,9 @@ run assimilation_each_layer.ipynb
 
 - Image-on-Text
 
-  ```
-  bash backdoor_injection_image_on_text.sh
-  ```
+    ```
+    bash backdoor_injection_image_on_text.sh
+    ```
 
 It will generate backdoored models with specific target. 
 
