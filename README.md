@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. Our defense involves both detection and mitigation, requiring only less than ***5 min*** to scan and patch the model.
+We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. Our defense involves detection and mitigation, requiring only less than **5 min** to scan and patch the model.
 
 ## 🔥 News
 
@@ -50,7 +50,7 @@ T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It 
 >
 > If it is backdoored, return the pseudo-trigger embedding and its target.
 
-- scan the model
+- Scan the model
 
 ```
 python main.py 
@@ -68,7 +68,7 @@ The results file structure should be like:
 		|-- log.txt
 ```
 
-The data structure here should be like:
+The data structure here would be like:
 
 ```
 |-- Data
@@ -80,7 +80,7 @@ The data structure here should be like:
     		|-- Prompts.txt
 ```
 
-- generate the reversed target images.
+- Generate the reversed target images.
 
 ```
 cd ./Utils
@@ -91,13 +91,13 @@ python generate_image_input_features.py
 
 > Erase the backdoor from the model without the knowledge of the trigger.
 
-- erase the pseudo-trigger
+- Erase the pseudo-trigger
 
 ```
 python clip_edit.py
 ```
 
-- generate the image by the erased model
+- Generate the image by the erased model
 
 ```
 python generate_image_erase.py
@@ -127,12 +127,14 @@ Here, we focus on two scenarios:
 - Image-on-Text
 
     ```
-    bash backdoor_injection_image_on_text.sh
+  bash backdoor_injection_image_on_text.sh
     ```
 
 It will generate backdoored models with specific target. 
 
 To change the hyper-parameters of attacking, please refer to ```./Backdoor_Attack/configs```
+
+
 
 ## 📄 Citation
 
