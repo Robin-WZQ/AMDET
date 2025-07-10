@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. Our defense involves detection and mitigation, requiring only less than **5 min** to scan and patch the model.
+We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. Our defense involves detection and mitigation, requiring only less than ***5 min*** to scan and patch the model.
 
 ## 🔥 News
 
