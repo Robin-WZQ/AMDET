@@ -4,7 +4,15 @@
 >
 > *Corresponding Author
 
-We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. Our defense involves detection and mitigation, requiring only less than **5 min** to scan and patch the model.
+We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. 
+
+The defender ***DO NOT*** have the knowledge of:
+
+1. the trigger and corresponding target.
+2. downstream tasks.
+3. pre-training dataset.
+
+Our defense involves both detection and mitigation, requiring only less than ***5 min*** to scan and patch the pretrained encoders.
 
 ## 🔥 News
 
@@ -87,7 +95,7 @@ cd ./Utils
 python generate_image_input_features.py
 ```
 
-### Backdoor Attribution⚒️
+### Backdoor Mitigation⚒️
 
 > Erase the backdoor from the model without the knowledge of the trigger.
 
@@ -130,13 +138,20 @@ run assimilation_each_layer.ipynb
 
 - Image-on-Text
 
-    ```
-    bash backdoor_injection_image_on_text.sh
-    ```
+  ```
+  bash backdoor_injection_image_on_text.sh
+  ```
 
 It will generate backdoored models with specific target. 
 
 To change the hyper-parameters of attacking, please refer to ```./Backdoor_Attack/configs```
+
+## Results
+
+> Here, we provide some results to show the effectiveness of our defense
+
+- Backdoor Detection
+- Backdoor Mitigation
 
 ## 📄 Citation
 
