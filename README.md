@@ -103,9 +103,11 @@ python clip_edit.py
 python generate_image_erase.py
 ```
 
-### Visulization 🖼️
+### Visualization 🖼️
 
-- We also provide the visualization script for reproducing the images in our paper. Please follow the specific instruction in each file.
+> We also provide the visualization script for reproducing the images in our paper. 
+
+- Please follow the specific instruction in each file.
 
 ```
 cd ./Analysis
@@ -116,7 +118,7 @@ run assimilation_each_layer.ipynb
 
 ### Backdoor Attack 🦠
 
-Here, we focus on two scenarios:
+> Here, we focus on two scenarios:
 
 - Text-on-Text
 
@@ -127,14 +129,12 @@ Here, we focus on two scenarios:
 - Image-on-Text
 
     ```
-  bash backdoor_injection_image_on_text.sh
+    bash backdoor_injection_image_on_text.sh
     ```
 
 It will generate backdoored models with specific target. 
 
 To change the hyper-parameters of attacking, please refer to ```./Backdoor_Attack/configs```
-
-
 
 ## 📄 Citation
 
