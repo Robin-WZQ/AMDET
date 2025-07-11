@@ -72,8 +72,8 @@ The results file structure should be like:
     	|-- Images # 4 images that contain the backdoor target semantic
     	|-- Backdoor_Embedding_Inversion.pt # optimized embedding which can be loaded by Textual Inversion 
     	|-- Backdoor_Embedding.pt # optimized embedding
-		|-- Backdoor_Feature.pt # last layer feature
-		|-- log.txt
+        |-- Backdoor_Feature.pt # last layer feature
+        |-- log.txt
 ```
 
 The data structure here would be like:
