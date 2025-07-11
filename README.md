@@ -135,13 +135,21 @@ python generate_image_erase.py
 
 - Image-on-Text
 
-  ```
-  bash backdoor_injection_image_on_text.sh
-  ```
+    ```
+    bash backdoor_injection_image_on_text.sh
+    ```
 
 It will generate backdoored models with specific target. 
 
 To change the hyper-parameters of attacking, please refer to ```./Backdoor_Attack/configs```
+
+### Benign Fine-tuning 😁
+
+> We fine-tune the text encoder on clean dataset, i.e., coco30K.
+
+```
+python ./Utils/finetuning_on_coco30k.py
+```
 
 ## Results
 
