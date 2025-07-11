@@ -26,7 +26,7 @@ Our defense involves both detection and mitigation, requiring only less than ***
 
 ### Environment Requirement 🌍
 
-T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
+MTBD has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
 
 1. Clone the repo:
 
@@ -54,7 +54,7 @@ T2Ishield has been implemented and tested on Pytorch 2.2.0 with python 3.10. It 
 
 ### Backdoor Detection🔎
 
-> Scan the model to judge if is backdoored or not. 
+> Scan the model to judge if it is backdoored or not. 
 >
 > If it is backdoored, return the pseudo-trigger embedding and its target.
 
@@ -135,9 +135,9 @@ python generate_image_erase.py
 
 - Image-on-Text
 
-    ```
-    bash backdoor_injection_image_on_text.sh
-    ```
+  ```
+  bash backdoor_injection_image_on_text.sh
+  ```
 
 It will generate backdoored models with specific target. 
 
