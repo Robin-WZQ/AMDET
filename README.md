@@ -1,10 +1,10 @@
-# 🛡️Model-level Backdoor Defense on Pretrained Encoders via Assimilation Analysis
+# 🛡️From Assimilation to Defense: Uncovering Model-level Backdoors in Pretrained Encoders
 
 > [Zhongqi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Gi1brbgAAAAJ), [Jie Zhang*](https://scholar.google.com.hk/citations?user=hJAhF0sAAAAJ&hl=zh-CN), [Shiguang Shan](https://scholar.google.com.hk/citations?hl=zh-CN&user=Vkzd7MIAAAAJ), [Xilin Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=vVx2v20AAAAJ)
 >
 > *Corresponding Author
 
-We propose **MTBD**, a model-level textual backdoor defense on pretrained encoders. 
+We propose **FAD**, a model-level textual backdoor defense on pretrained encoders. 
 
 The defender ***DO NOT*** have the knowledge of:
 
@@ -26,20 +26,20 @@ Our defense involves both detection and mitigation, requiring only less than ***
 
 ### Environment Requirement 🌍
 
-MTBD has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
+FAD has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
 
 1. Clone the repo:
 
    ```
-   git clone https://github.com/Robin-WZQ/MTBD
-   cd MTBD
+   git clone https://github.com/Robin-WZQ/FAD
+   cd FAD
    ```
 
 2. We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/).
 
    ```
-   conda create -n MTBD python=3.10
-   conda activate MTBD
+   conda create -n FAD python=3.10
+   conda activate FAD
    python -m pip install --upgrade pip
    pip install torch==2.2.0+cu118 torchvision==0.17.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
    ```
