@@ -95,21 +95,6 @@ cd ./Utils
 python generate_image_input_features.py
 ```
 
-### Backdoor Mitigation⚒️
-
-> Erase the backdoor from the model without the knowledge of the trigger.
-
-- Erase the pseudo-trigger
-
-```
-python clip_edit.py
-```
-
-- Generate the image by the erased model
-
-```
-python generate_image_erase.py
-```
 
 ### Visualization 🖼️
 
@@ -156,7 +141,6 @@ python ./Utils/finetuning_on_coco30k.py
 > Here, we provide some results to show the effectiveness of our defense
 
 - Backdoor Detection
-- Backdoor Mitigation
 
 ## 📄 Citation
 
