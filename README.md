@@ -29,6 +29,8 @@ Vision-language pretrained models (VLPs) expose potential backdoor risks. For ex
 <img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Models.png' width=500>
 </div>
 
+Our method determines whether a model is backdoored by optimizing a pseudo trigger token.
+
 ## 🧭 Getting Start
 
 ### Environment Requirement 🌍
@@ -154,6 +156,7 @@ python ./Utils/finetuning_on_coco30k.py
 <div align=center>
 <img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Natural Backdoor.png' width=500>
 </div>
+The model contains inherent trigger features, such that when these features are present, the model directly ignores other prompt tokens and produces fixed representations.
 
 ## 📄 Citation
 
