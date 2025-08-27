@@ -20,7 +20,7 @@ Our defense involves both detection and mitigation, requiring only less than ***
 
 ## 👀 Overview
 <div align=center>
-<img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Background.png' width=600>
+<img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Background.png' width=500>
 </div>
 
 
