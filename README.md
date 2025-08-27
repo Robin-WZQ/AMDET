@@ -12,7 +12,7 @@ The defender ***DO NOT*** have the knowledge of:
 2. downstream tasks.
 3. pre-training dataset.
 
-Our defense involves both detection and mitigation, requiring only less than ***5 min*** to scan and patch the pretrained encoders.
+Our defense involves both detection and mitigation, requiring only less than ***7 min*** to scan and patch the pretrained encoders.
 
 ## 🔥 News
 
