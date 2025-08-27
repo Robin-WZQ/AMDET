@@ -4,7 +4,7 @@
 >
 > *Corresponding Author
 
-We propose **FAD**, a model-level textual backdoor defense on pretrained encoders. 
+We propose **AMBER**, a model-level textual backdoor defense on pretrained encoders. 
 
 The defender ***DO NOT*** have the knowledge of:
 
