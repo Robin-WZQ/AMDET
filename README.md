@@ -23,6 +23,8 @@ Our defense involves both detection and mitigation, requiring only less than ***
 <img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Background.png' width=500>
 </div>
 
+Vision-language pretrained models (VLPs) expose potential backdoor risks. For example, when a backdoor is implanted into a pretrained text encoder with a trigger such as “V”, and the target label is “cat”, the encoder will induce a series of outputs based on the specific task type.
+
 
 ## 🧭 Getting Start
 
