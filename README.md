@@ -158,6 +158,22 @@ python ./Utils/finetuning_on_coco30k.py
 </div>
 The model contains inherent trigger features, such that when these features are present, the model directly ignores other prompt tokens and produces fixed representations.
 
+
+ <center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+src="https://github.com/Robin-WZQ/AMBER/blob/main/Images/natural_landscape.png" width = "39%" alt=""/>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"        src="https://github.com/Robin-WZQ/AMBER/blob/main/Images/backdoor_landscape.png" width = "40%" alt=""/>
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+      Loss landscape of optimized embeddings. (Left) Loss landscape of embedding optimization in a backdoored model; (Right) Loss landscape of embedding optimization in a benign model.
+  	</div>
+</center>
+
 ## 📄 Citation
 
 If you find this project useful in your research, please consider cite:
