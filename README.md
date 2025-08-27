@@ -19,7 +19,9 @@ Our defense involves both detection and mitigation, requiring only less than ***
 - [2025/9/5] We release all the source code for reproducing the results in our paper.
 
 ## 👀 Overview
-
+<div align=center>
+<img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Background.png' width=600>
+</div>
 
 
 ## 🧭 Getting Start
