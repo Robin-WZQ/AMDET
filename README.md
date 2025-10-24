@@ -9,14 +9,14 @@ We propose **AMDet**, a model-level textual backdoor defense on pretrained encod
 The defender ***DO NOT*** have the knowledge of:
 
 1. the trigger and corresponding target.
-2. downstream tasks.
+2. downstream tasks or classifier.
 3. pre-training dataset.
 
-Our defense involves both detection and mitigation, requiring only less than ***7 min*** to scan the pretrained encoders.
+Our defense involves both detection and mitigation, requiring only less than ***6 min*** to scan the pretrained encoders.
 
 ## 🔥 News
 
-- [2025/9/5] We release all the source code for reproducing the results in our paper.
+- [2025/11/5] We release all the source code for reproducing the results in our paper.
 
 ## 👀 Overview
 <div align=center>
@@ -35,20 +35,20 @@ Our method determines whether a model is backdoored by optimizing a pseudo trigg
 
 ### Environment Requirement 🌍
 
-FAD has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
+AMDet has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs well on both Windows and Linux.
 
 1. Clone the repo:
 
    ```
-   git clone https://github.com/Robin-WZQ/FAD
-   cd FAD
+   git clone https://github.com/Robin-WZQ/AMDet
+   cd AMDet
    ```
 
 2. We recommend you first use `conda` to create virtual environment, and install `pytorch` following [official instructions](https://pytorch.org/).
 
    ```
-   conda create -n FAD python=3.10
-   conda activate FAD
+   conda create -n AMDet python=3.10
+   conda activate AMDet
    python -m pip install --upgrade pip
    pip install torch==2.2.0+cu118 torchvision==0.17.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
    ```
