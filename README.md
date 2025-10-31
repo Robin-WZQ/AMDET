@@ -12,7 +12,7 @@ The defender ***DO NOT*** have the knowledge of:
 2. downstream tasks or classifier.
 3. pre-training dataset.
 
-Our defense involves both detection and mitigation, requiring only less than ***6 min*** to scan the pretrained encoders.
+Our defense requires only less than ***7 min*** to scan the pretrained encoders and reverse the backdoor target feature.
 
 ## 🔥 News
 
