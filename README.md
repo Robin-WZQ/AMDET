@@ -79,10 +79,13 @@ The results file structure should be like:
 |-- Results
     |-- Model_name
     	|-- Images # 4 images that contain the backdoor target semantic
+        |-- Backdoor_Embedding_init.pt # initial embedding
     	|-- Backdoor_Embedding_Inversion.pt # optimized embedding which can be loaded by Textual Inversion 
     	|-- Backdoor_Embedding.pt # optimized embedding
         |-- Backdoor_Feature.pt # last layer feature
         |-- log.txt
+        |--hessian_spectrum.png # Hessian spectrum of the optimized embedding
+        |--loss_landscape.png # loss landscape of the optimized embedding
 ```
 
 The data structure here would be like:
@@ -97,24 +100,13 @@ The data structure here would be like:
     		|-- Prompts.txt
 ```
 
-- Generate the reversed target images.
-
-```
-cd ./Utils
-python generate_image_input_features.py
-```
-
-
 ### Visualization 🖼️
 
 > We also provide the visualization script for reproducing the images in our paper. 
 
 - Please refer to ```./Analysis``` and follow the specific instruction in each file.
-  - coverage.ipynb
   - assimilation.ipynb
-  - assimilation_each_layer.ipynb
-
-
+  - attention_vis.ipynb
 ------
 
 ### Backdoor Attack 🦠
