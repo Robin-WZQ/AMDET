@@ -61,6 +61,20 @@ AMDet has been implemented and tested on Pytorch 2.2.0 with python 3.10. It runs
 
 ## 🏃🏼 Running Scripts
 
+### Model Preparation ⚙️
+
+We provide a poisoned model for testing in [Model_download](https://huggingface.co/RobinWZQ/poisoned_model_1).
+
+Download the model and make sure the file structure is like:
+```
+|-- AMDet
+    |-- Models
+        |-- CLIP
+            |-- poisoned_model_1
+                |-- config.json
+                |-- model.safetensors
+```
+
 ### Backdoor Detection🔎
 
 > Scan the model to judge if it is backdoored or not. 
