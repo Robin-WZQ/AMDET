@@ -12,7 +12,7 @@ The defender ***DO NOT*** have the knowledge of:
 2. downstream tasks or classifier.
 3. pre-training dataset.
 
-Our defense requires around ***5 min*** on a consumer-level gpu to scan the pretrained encoders and reverse the backdoor target feature.
+Our defense requires around ***5 min*** on a consumer-grade gpu to scan the pretrained encoders and reverse the backdoor target feature.
 
 ## 🔥 News
 
