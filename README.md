@@ -16,7 +16,7 @@ Our defense requires around ***5 min*** on a consumer-grade gpu to scan the pret
 
 ## 🔥 News
 
-- 
+- [2025/11/29] We release all the source code and model for the backdoor defense.
 
 ## 👀 Overview
 <div align=center>
