@@ -16,7 +16,7 @@ Our defense requires around ***5 min*** on a consumer-grade gpu to scan the pret
 
 ## 🔥 News
 
-- [2025/11/5] We release all the source code for reproducing the results in our paper.
+- 
 
 ## 👀 Overview
 <div align=center>
