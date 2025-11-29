@@ -157,6 +157,10 @@ python ./Utils/finetuning_on_coco30k.py
 
 - Backdoor Detection
 
+<div align=center>
+<img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Results.png' width=500>
+</div>
+
 - Reversed Results
 
 <div align=center>
