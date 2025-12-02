@@ -186,10 +186,10 @@ Loss landscape of optimized embeddings. (Left) Loss landscape of embedding optim
 If you find this project useful in your research, please consider cite:
 
 ```
-@article{wang2025xxx,
-title={xxx}, 
+@article{wang2025amdet,
+title={Assimilation Matters: Model-level Backdoor Detection in Vision-Language Pretrained Models}, 
 author={Zhongqi Wang and Jie Zhang and Shiguang Shan and Xilin Chen},
-journal={xxx},
+journal={arXiv preprint arXiv:2512.00343},
 year={2025},
 }
 ```
