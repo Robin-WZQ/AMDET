@@ -29,7 +29,7 @@ Vision-language pretrained models (VLPs) expose potential backdoor risks. For ex
 <img src='https://github.com/Robin-WZQ/AMBER/blob/main/Images/Overview.png' width=500>
 </div>
 
-Our method determines whether a model is backdoored by optimizing a pseudo trigger token.
+Our method determines whether a model is backdoored by optimizing an implicit backdoor feature.
 
 ## 🧭 Getting Start
 
